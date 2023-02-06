@@ -96,8 +96,8 @@ const Header1 = () => {
         >
           <Group position="apart" sx={{ height: "100%" }}>
             <Image
-              width={130}
-              src="./image/logo.png"
+              width={60}
+              src="./image/logoair.png"
               alt="logo"
               onClick={() => navigate("/")}
               style={{ cursor: "pointer" }}

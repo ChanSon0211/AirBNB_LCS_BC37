@@ -12,7 +12,7 @@ const Footer = () => {
     <div className={styles.container}>
       <Grid columns={20} my={30} className={styles.footer__content}>
         <Grid.Col md={10} xl={8}>
-          <Image src="./image/logo.png" alt="logo" width={300} />
+          <Image src="./image/logoair.png" alt="logo" width={300} />
         </Grid.Col>
         <Grid.Col md={10} xl={4}>
           <h4>Trợ giúp</h4>
@@ -76,7 +76,7 @@ const Footer = () => {
         </Grid.Col>
       </Grid>
       <Group className={styles.footer__copyright}>
-        <p>© 2023 tama. All rights reserved.</p>
+        <p>© 2023 AirBNB. All rights reserved.</p>
         <div>
           <a href="#">
             <IconBrandFacebook />

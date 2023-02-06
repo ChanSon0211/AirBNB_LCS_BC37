@@ -16,7 +16,7 @@ const Loading = () => {
           <circle cx="170" cy="170" r="110" stroke="#e64980" />
           <circle cx="170" cy="170" r="85" stroke="#fff" />
         </svg>
-        <Image src="/image/logo-ntm.png" alt="logo-ngb" className={styles.logo} width={250}/>
+        <Image src="/image/logoair.png" alt="logo-ngb" className={styles.logo} width={200}/>
       </div>
     </>
   );

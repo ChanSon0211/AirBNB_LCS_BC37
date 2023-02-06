@@ -33,14 +33,15 @@ const DanhSachPhong = () => {
         <LoadingContent />
       </div>
 
-      <div className={styles.container}>
+      <div className={styles.container} >
         {phong?.map((item, index) => (
           <Paper
             shadow="xl"
             key={index}
-            style={{ margin: "1rem 0 4rem 0" }}
+            style={{ margin: "1rem 0 4rem 0"   }}
             radius={10}
             p={20}
+            
           >
             <Image src={item.hinhAnh} alt={item.tenPhong} radius={10} />
             <Text fw={700} fz={26} mt={10}>
